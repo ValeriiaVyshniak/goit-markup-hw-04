@@ -97,7 +97,7 @@ button {
 }
 .navigation-link {
     text-decoration: none;
-    color: #2E2F42;
+    color: #404bbf;
     padding-top: 24px;
     padding-bottom: 24px;
     position: relative;
@@ -391,10 +391,10 @@ button {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-social-icon1:hover {
+.team-social-icon-one:hover {
     background-color: #404BBF;
 }
-.team-social-icon1 {
+.team-social-icon-one {
     background-color: #4D5AE5 ;
     display: flex;
     justify-content: center;
@@ -404,7 +404,7 @@ button {
     height: 40px;
     padding: 12px;
 }
-.team-social-icon1-footer {
+.team-social-icon-one-footer {
     background-color: #4D5AE5;
         display: flex;
         border-radius: 50%;
@@ -412,11 +412,11 @@ button {
         height: 40px;
         padding: 12px;
 }
-.team-social-icon1-footer:hover {
+.team-social-icon-one-footer:hover {
    background-color: #31D0AA;
 }
 .team-social-icon-position {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     gap: 24px;
 }
