@@ -111,12 +111,21 @@ button {
     text-decoration: underline;
 
 }    
-.navigation-link::after {
+.link-after {
+    text-decoration: none;
+    color: #404bbf;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link-after::after {
     content: "";
     position: absolute;
     left: 0;
     bottom: -1px;
     height: 4px;
+    width: 100%;
     background-color: #404bbf;
     border-radius: 2px;
 
@@ -423,7 +432,6 @@ button {
         border-radius: 50%;
         width: 40px;
         height: 40px;
-        padding: 12px;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
 }
